@@ -1,0 +1,20 @@
+
+ABOUT
+=====
+
+This is a simple interface to add Python's logging module to your code.
+Simply import and configure it at the top level and you're ready to go!
+
+EXAMPLE
+=======
+
+  import ezlog as log
+  log.setup(__name__)
+  log.set_level(log.DEBUG)
+
+  # some time later
+  log.debug('oops')
+  log.info('hello')
+  log.warn('uh oh...')
+  log.error('mayday! mayday!')
+  log.critical('42 / 0')

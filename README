@@ -9,8 +9,8 @@ EXAMPLE
 =======
 
   import ez.log as logging
-  log = logging.setup()
-  log.set_level(logging.DEBUG)
+  log = logging.setup(__name__)
+  logging.set_level(logging.DEBUG, __name__)
 
   # some time later
   log.debug('oops')

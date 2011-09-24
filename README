@@ -8,9 +8,9 @@ Simply import and configure it at the top level and you're ready to go!
 EXAMPLE
 =======
 
-  import ezlog as log
-  log.setup(__name__)
-  log.set_level(log.DEBUG)
+  import ez.log as logging
+  log = logging.setup()
+  log.set_level(logging.DEBUG)
 
   # some time later
   log.debug('oops')

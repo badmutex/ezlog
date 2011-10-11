@@ -11,7 +11,7 @@ CRITICAL = _logging.CRITICAL
 
 ## defaults
 _DEFAULT_NAME  = 'root'
-_LOG_FORMAT    = '%(asctime)s %(module)s %(levelname)s %(message)s'
+_LOG_FORMAT    = '%(asctime)s %(module)s %(levelname)-9s %(message)s'
 _DEFAULT_LEVEL = INFO
 
 def setup(name=_DEFAULT_NAME, format=_LOG_FORMAT, level=_DEFAULT_LEVEL):

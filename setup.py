@@ -5,7 +5,7 @@ def read(path):
 
 setup(name='ezlog',
       version='0.1',
-      py_modules= ['ez.log'
+      py_modules= ['ezlog'
                    ],
       author = "Badi' Abdul-Wahid",
       author_email = 'abdulwahidc@gmail.com',
